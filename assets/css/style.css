@@ -67,7 +67,7 @@ nav{
 .btn-secondary {
     background-color: var(--button-color);
     border-color: var(--button-color);
-    color: black
+    color: black;
 }
 
 .btn-secondary:hover, .btn-secondary:focus {
