@@ -11,6 +11,7 @@
     --secondary-color: #E6F2FA;
     --accent-color: #A8B6C1;
     --button-color: #F76C5E;
+    --button-hover-color: #006161;
 }
 
 /* Global Styles */
@@ -27,6 +28,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Navigation */
+
+nav{
+    background-color: var(--primary-color);
+}
+
+.custom-text-color {
+    /* Override bootstrap classes */
+    color: var(--secondary-color);
+}
+
+.navbar-brand {
+    font-family: var(--header-font);
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    /* override browser styles */
+    color: white;
+}
+
+/* Removing active class for now - might use if apply to sections later with ScrollSpy */
+/* .navbar .nav-link.active {
+  color: var(--secondary-color);
+  text-decoration: underline;
+} */
+
+.nav-link:hover, .nav-link:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: 1.5px solid var(--secondary-color);
+}
+
+/* Buttons */
+
+.btn-secondary {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+    color: black
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color);
+    color: white;
+}
+
+
+/* Media Queries */
+
+/* Mobiles, tablets, small desktops */
+@media screen and (max-width: 992px) {
+    .navbar .nav-link {
+        /* Align items with the "report a concern" button when navbar menu collapsed */
+        padding-left: 0.7rem;
+    }
+}
 
 
 
