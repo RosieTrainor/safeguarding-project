@@ -12,6 +12,37 @@
 
 ## User Experience
 
+### Strategy
+<!-- what are goals -->
+
+### Scope
+
+I used a github project board with user stories to track progress and ensure the requirements were met within the time frame. My must-have user stories amounted to an MVP, with should- and could-haves adding extra value.
+
+**Must-have user stories focused on 5 main areas as outlined in the brief:**
+- Simple and easy to understand information on safeguarding and it's key principles
+- Information on how to recognise and respond to safeguarding concerns
+- Accessibilty 
+- Easy to use Navigation and Layout
+- Responsivity for mobile, tablet, and desktop
+
+**Should-have stories allowed users to find more information than found on the website:**
+- Further information/links to other sites related to safeguarding
+
+**Could-have stories focussed on encouraging users to report if they had concerns :**
+- Contact form to allow users to report their concerns directly
+- Testimonials to reassure users that reporting was the right thing to do
+
+### Structural 
+<!-- basic since one-page site but write about navigation/structure of site -->
+
+### Skeleton
+<!-- used wireframes -->
+
+### Surface 
+ 
+My design choices are outlined below. 
+
 ## Design
 
 ### Colour Scheme
@@ -19,8 +50,6 @@
 The colour scheme was chosen to be calming and professional, whilst meeting accessibility guidelines for colour contrast. A pale blue is used for the background whilst a darker blue is used for the text, navigation and footer. When necessary for accessibilty and colour contract, black or white text is used. <br>
 
 Coral is used for buttons in order to stand out against the blue but not be too jarring or threatening. Teal is used when the buttons are hovered over to highlight this action whilst fitting with the colour scheme. 
-
-
 
 #1D3557 - Dark Blue <br>
 #E6F2FA - Pale Blue <br>
