@@ -2,5 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* CSS Variables */
+
+:root {
+    --header-font: 'Inter', sans-serif;
+    --body-font: 'PT Sans', sans-serif;
+    --primary-color: #1D3557;
+    --secondary-color: #E6F2FA;
+    --accent-color: #A8B6C1;
+    --button-color: #F76C5E;
+}
+
 /* Global Styles */
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+    color: var(--primary-color);
+}
+
+
+
 
