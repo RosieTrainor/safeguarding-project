@@ -130,6 +130,14 @@ main {
     font-weight: 500;
 }
 
+/* About Section */
+
+#about img {
+    width: 190px;
+    height: 200px;
+    border-radius: 0.5rem;
+}
+
 /* Footer */
 
 footer {
@@ -161,6 +169,12 @@ footer a {
     }
 }
 
+/* Desktops */
 
+@media screen and (min-width: 993px) {
+    /* Text larger on larger screens */
+    #about .about-text {
+        font-size: 1.2rem;
+    }
 
-
+}
