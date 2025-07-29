@@ -139,6 +139,26 @@ main {
     color: var(--primary-color)
 }
 
+/* Respond to Concerns Section */
+
+#respond-to-concerns .card-title {
+    color: var(--primary-color);
+}
+
+#respond-to-concerns .card-body .card-text {
+    color: var(--primary-color);
+}
+
+#respond-to-concerns .card-body {
+    /* All cards the same size */
+    min-height: 250px;
+}
+
+#respond-to-concerns .card {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--button-color);
+}
+
 /* Footer */
 
 footer {
