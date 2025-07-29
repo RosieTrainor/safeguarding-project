@@ -138,6 +138,12 @@ main {
     border-radius: 0.5rem;
 }
 
+/* Recognise the Signs Section */
+
+#recognise-signs .card-title {
+    color: var(--primary-color)
+}
+
 /* Footer */
 
 footer {
