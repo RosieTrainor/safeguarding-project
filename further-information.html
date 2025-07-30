@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Further Information - Safeguarding</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand custom-text-color" href="index.html#hero">Safeguarding</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link custom-text-color" aria-current="page" href="index.html#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-text-color" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-text-color" href="index.html#recognise-signs">Recognise the Signs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-text-color" href="index.html#respond-to-concerns">Respond to Concerns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-text-color" href="further-information.html">Further Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary" href="index.html#contact"
+                            aria-label="Report a Concern, takes you to contact section">Report a Concern</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content  -->
+    <main>
+        <!-- Page Header -->
+        <section id="page-header" class="py-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Further Information</h1>
+                        <p class="lead">Additional resources and guidance for safeguarding</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Information Carousel -->
+         
+        
+    </main>
+
+    <!-- Footer / Contact Section -->
+    <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer id="footer" class="mt-auto">
+        <div class="container">
+            <div class="row">
+                <div id="social-media" class="col-12 col-md-6 text-center">
+                    <h3>Social Media Links</h3>
+                    <p>Follow us on our social media channels for updates and resources:</p>
+                    <a href="https://www.instagram.com" target="_blank"
+                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-instagram ms-4"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"
+                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-square-facebook ms-4"></i></a>
+                    <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                        rel="noopener"><i class="fa-brands fa-x-twitter ms-4"></i></a>
+                </div>
+                <div id="contact" class="col-12 col-md-6 text-center">
+                    <h3>Contact Us</h3>
+                    <p>If you have any concerns or need to report an incident, please contact us:</p>
+                    <address>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-envelope me-1" aria-label="Email icon"> </i><a
+                                    href="mailto:info@safeguarding.com">info@safeguarding.com</a></li>
+                            <li><i class="fas fa-phone me-1" aria-label="Phone icon"> </i><a href="tel:+1234567890">+1
+                                    234 567 890</a></li>
+                            <li><i class="fas fa-map-marker-alt me-1" aria-label="Address icon"> </i>123 Safeguard St,
+                                Cityville, UK</li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/7633f9d1a5.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    // Only handle links that point to sections on the same page
+                    let href = e.target.getAttribute("href");
+                    if (href.startsWith("#")) {
+                        let section = document.querySelector(href);
+                        if (section) {
+                            e.preventDefault(); // Prevent default anchor click behavior
+                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                            window.scroll({
+                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                                behavior: "smooth",
+                            });
+                            document
+                                .querySelector(".navbar-collapse")
+                                .classList.remove("show"); // Collapse navbar
+                        }
+                    }
+                });
+            });
+    </script>
+
+</body>
+
+</html>
