@@ -398,9 +398,17 @@
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        let navbar = document.querySelector(".navbar");
+                        let navbarHeight = navbar.offsetHeight;
+                        
+                        // Add extra offset for sections with my-3 spacing
+                        let extraOffset = 0;
+                        if (section.id === "respond-to-concerns" || section.id === "further-information") {
+                            extraOffset = 20; // Account for my-3 margin spacing
+                        }
+                        
                         window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            top: section.offsetTop - navbarHeight - extraOffset,
                             behavior: "smooth",
                         });
                         document
