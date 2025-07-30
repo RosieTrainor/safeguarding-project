@@ -2,6 +2,8 @@
 
 ## Live Site
 
+[Safeguarding Website](https://rosietrainor.github.io/safeguarding-project/)
+
 ## Introduction
 
 ## Responsivity
@@ -69,6 +71,12 @@ This website uses Inter for the headings and PT Sans for the body text. These we
 ## Technologies Used
 
 ## Deployment
+
+This site was deployed using Github Pages. 
+
+From your github repository, navigate to the Pages area (within Settings) and choose to deploy from branch. Then choose the branch to deploy from (usually main) and click save.
+
+At the top of the Pages page, you should have the link to your deployed site. You may need to refresh the page or wait a few minutes.
 
 ## Testing 
 
