@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+section {
+    /* Space for fixed navbar */
+    scroll-margin-top: 56px; 
+}
+
 /* Navigation */
 
 nav{
