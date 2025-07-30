@@ -31,6 +31,11 @@ h1 {
     font-size: 3rem;
 }
 
+/* Explicit font-size for h1 within sections to address Lighthouse warning */
+section h1 {
+    font-size: 3rem;
+}
+
 h2 { 
     font-size: 2rem;
 }
@@ -40,7 +45,7 @@ h3 {
 
 section {
     /* Space for fixed navbar */
-    scroll-margin-top: 56px; 
+    scroll-margin-top: 80px; 
 }
 
 /* Add padding to all sections except hero */
@@ -158,8 +163,8 @@ main {
 /* About Section */
 
 #about img {
-    width: 190px;
-    height: 200px;
+    width: 200px;
+    height: 210px;
     border-radius: 0.5rem;
 }
 
@@ -256,7 +261,7 @@ main {
 
 /* Footer */
 
-footer {
+#footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 1rem 0;
@@ -273,8 +278,16 @@ footer a {
 #social-media i {
     font-size: 2rem;
     color: var(--button-color);
+    padding: 1rem 0;
 }
 
+#contact {
+    border: 2px solid var(--button-color);
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
 
 /* Media Queries */
 
