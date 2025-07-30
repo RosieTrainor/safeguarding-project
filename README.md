@@ -89,6 +89,10 @@ This site was coded with HTML, CSS, and JavaScript.
 
 **[Github](https://github.com/)** was used to save and store the files for the site.
 
+**[Github Pages](https://pages.github.com/)** were used to deploy the site.
+
+**[Github Issues Project Board](https://github.com/features/issues)** was used to track progress.
+
 **[Bootstrap](https://getbootstrap.com/)** Framework (v5.3) was used for the grid structure and responsivity throughout the site. 
 
 The navigation bar, cards, carousel, and buttons were built using Bootstrap and adapted for the site.
