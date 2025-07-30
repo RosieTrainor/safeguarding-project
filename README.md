@@ -6,6 +6,12 @@
 
 ## Introduction
 
+This website aims to give easy to understand information on safeguarding. 
+
+It lays out what safeguarding is, how to recognise signs of safeguarding concerns, and what to do if you have any concerns. It provides contact information to report safeguarding concerns and links to further information on safeguarding from reputable sources. 
+
+The site aims to be as accessible as possible for everyone.
+
 ## Responsivity
 ### Mobile/Tablet View
 ### Desktop View
@@ -78,6 +84,11 @@ Teal is used for buttons to stand out whilst fitting the colour scheme. The hove
 This website uses Inter for the headings and PT Sans for the body text. These were chosen for their readability and style. They are listed as "calm" and "business" on google fonts, which is appropriate for a safeguarding website that aims to be easy to read and approachable, but also professional. They pair well as both are modern sans-serif fonts.
 
 ## Website Features
+
+<!-- Navbar -->
+<!-- Footer -->
+<!-- Report Button -->
+<!-- Features of Home Page -->
 
 
 ## Future Features
