@@ -101,7 +101,7 @@ main {
 /* Hero Section */
 
 .hero-image {
-    height: 300px;
+    height: 310px;
     position: relative;
     background: var(--secondary-color) url(../images/hero-image.webp) no-repeat center center/cover;
 }
