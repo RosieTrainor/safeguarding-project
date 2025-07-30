@@ -15,7 +15,8 @@
 ## User Experience
 
 ### Strategy
-<!-- what are goals -->
+
+The goal of this site is to provide clear, easy to access information on safeguarding, including how to recognise and respond to any safeguarding concerns. The layout and navigation should be simple and intuitive, making the information easy to access and understand.
 
 ### Scope
 
@@ -37,11 +38,23 @@ I used a github project board with user stories to track progress and ensure the
 - Contact form to allow users to report their concerns directly
 - Testimonials to reassure users that reporting was the right thing to do
 
-### Structural 
-<!-- basic since one-page site but write about navigation/structure of site -->
+### Structure
+
+The structure of this site is quite simple, with it being one page.
+
+There is a naviagtion bar fixed at the top so it is easily accessed from everywhere on the site. The links take you to different sections of the site. 
+
+On the navigation bar and in the hero section of the page there is a button with "Report a Concern". This takes you to the contact section of the site within the footer, so users can easily find the contact information needed to report a safeguarding concern. 
+
+There is also a link within the last card of the Respond to Concerns section which takes you to the same place. It is assumed that a user with a concern may want read through the sections above before reporting, and once they have, this link will take them to the next step. 
 
 ### Skeleton
-<!-- used wireframes -->
+
+Balsamiq Wireframes were used to plan the layout of the site. 
+
+![Desktop Wireframe](documentation/Wireframes-Desktop.jpg)
+
+![Mobile Wireframe](documentation/Wireframes-Mobile.jpg)
 
 ### Surface 
  
@@ -62,6 +75,7 @@ Coral is used for buttons in order to stand out against the blue but not be too 
 #006161 - Teal <br>
 
 ### Fonts
+
 This website uses Inter for the headings and PT Sans for the body text. These were chosen for their readability and style. They are listed as "calm" and "business" on google fonts, which is appropriate for a safeguarding website that aims to be easy to read and approachable, but also professional. They pair well as both are modern sans-serif fonts. I found this combination on fontpair.co.
 
 ## Website Features
