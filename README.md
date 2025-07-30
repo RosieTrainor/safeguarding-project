@@ -64,15 +64,14 @@ My design choices are outlined below.
 
 ### Colour Scheme
 
-The colour scheme was chosen to be calming and professional, whilst meeting accessibility guidelines for colour contrast. A pale blue is used for the background whilst a darker blue is used for the text, navigation and footer. When necessary for accessibilty and colour contract, black or white text is used. All colour combinations were checked with webaim contrast checker to ensure readability.<br>
+The colour scheme was chosen to be calming and professional, whilst meeting accessibility guidelines for colour contrast. A pale blue fading to teal is used for the background whilst a darker blue is used for the text, navigation and footer. Within the "Respond to Concerns" cards the colour combination is flipped for emphasis, with a dark blue background and pale blue text.  When necessary for accessibilty and colour contract, black or white text is used. All colour combinations were checked with webaim contrast checker to ensure readability.<br>
 
-Coral is used for buttons in order to stand out against the blue but not be too jarring or threatening. Teal is used when the buttons are hovered over to highlight this action whilst fitting with the colour scheme. 
+Teal is used for buttons to stand out whilst fitting the colour scheme. The hover for buttons is set to a darker teal to show they are highlighted.
 
-#1D3557 - Dark Blue <br>
-#E6F2FA - Pale Blue <br>
-<!-- #A8B6C1 - for icons -->
-#F76C5 - Coral <br>
-#006161 - Teal <br>
+#2C3E50 - dark blue
+#F0F8FF - pale blue
+#20B2AA - teal
+#008B8B - darker teal
 
 ### Fonts
 
