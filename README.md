@@ -68,20 +68,41 @@ The colour scheme was chosen to be calming and professional, whilst meeting acce
 
 Teal is used for buttons to stand out whilst fitting the colour scheme. The hover for buttons is set to a darker teal to show they are highlighted.
 
-#2C3E50 - dark blue
-#F0F8FF - pale blue
-#20B2AA - teal
-#008B8B - darker teal
+#2C3E50 - dark blue <br>
+#F0F8FF - pale blue <br>
+#20B2AA - teal <br>
+#008B8B - darker teal <br>
 
 ### Fonts
 
-This website uses Inter for the headings and PT Sans for the body text. These were chosen for their readability and style. They are listed as "calm" and "business" on google fonts, which is appropriate for a safeguarding website that aims to be easy to read and approachable, but also professional. They pair well as both are modern sans-serif fonts. I found this combination on fontpair.co.
+This website uses Inter for the headings and PT Sans for the body text. These were chosen for their readability and style. They are listed as "calm" and "business" on google fonts, which is appropriate for a safeguarding website that aims to be easy to read and approachable, but also professional. They pair well as both are modern sans-serif fonts.
 
 ## Website Features
 
 ## Future Features
 
 ## Technologies Used
+
+### AI Use
+
+AI was used in this project for code generation (per project brief), debugging, and image generation. I also used ChatGPT to help generate users stories given the brief.
+
+#### Image Generation
+
+The image in the "About" section was created with Microsoft Copilot, as were the images for the cards in the "Recognize the Signs" section.
+
+#### Code Generation
+
+Copilot was used to generate and style an overlay div to darken the hero image without darkening the text on the image. It was also used to style the carousel images so they appeared the same size and remained responsive.
+
+When I decided to change the colour scheme, Copilot was used to implement this change rather than go through and do it manually.
+
+#### Debugging
+
+Copilot AI was used throughout for debugging. 
+For example: 
+- I asked it to check whether I had all the required closing tags for once section when I thought I might have missed one. 
+- I asked it to tell me the specificty of bootstrap stylings so I could easily override them.
 
 ## Deployment
 
