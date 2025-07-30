@@ -155,5 +155,21 @@ At the top of the Pages page, you should have the link to your deployed site. Yo
 
 ## Credits
 
+[North East London NHS](https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-statutory-duties/) - image taken from here for hero image.
+
+[CQC](https://www.cqc.org.uk/what-we-do/how-we-do-our-job/safeguarding-people) - linked to in site, and image taken from here for carousel in "Further Information" section. <br>
+[NHS](https://safeguarding-guide.nhs.uk/) - linked to in site, and image taken from here for carousel in "Further Information" section. <br>
+[SCIE](https://www.scie.org.uk) - linked to in site, and image taken from here for carousel in "Further Information" section.  Also used for safeguarding research. <br>
+
+
+[CaringforCare](https://caringforcare.co.uk/what-is-safeguarding-in-school/) - used for safeguarding research.
+
+[Code Institute](https://codeinstitute.net/) - a small amount of Javascript code (navbar collapse when internal link clicked) was copied from a previous walkthough project.
+
+[Copilot](https://copilot.microsoft.com/) - used for image generation (see AI use section)
+
+[Balsamiq](https://balsamiq.com/) - used to create wireframes.
+
+
 
 
