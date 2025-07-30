@@ -79,7 +79,14 @@ This website uses Inter for the headings and PT Sans for the body text. These we
 
 ## Website Features
 
+
 ## Future Features
+
+In future, I want to implement a Contact Form page where users can directly report a safeguarding concern online. This would make it easier for users to report than the current contact information given. I would also want an associated success page directed to when submitting the form to show a successful submission. Both of these pages can be seen on my wireframes.
+
+I would also want a Testimonials page where users can see successful outsomes of safeguarding referrals to reassure users that reporting is the right thing.
+
+I would want to add a favicon to the pages rather than the "Safeguarding" text I currently have.
 
 ## Technologies Used
 
@@ -88,6 +95,10 @@ This site was coded with HTML, CSS, and JavaScript.
 **Git** was used for version control. 
 
 **[Github](https://github.com/)** was used to save and store the files for the site.
+
+**[Github Pages](https://pages.github.com/)** were used to deploy the site.
+
+**[Github Issues Project Board](https://github.com/features/issues)** was used to track progress.
 
 **[Bootstrap](https://getbootstrap.com/)** Framework (v5.3) was used for the grid structure and responsivity throughout the site. 
 
