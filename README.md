@@ -83,6 +83,34 @@ This website uses Inter for the headings and PT Sans for the body text. These we
 
 ## Technologies Used
 
+This site was coded with HTML, CSS, and JavaScript.
+
+**Git** was used for version control. 
+
+**[Github](https://github.com/)** was used to save and store the files for the site.
+
+**[Bootstrap](https://getbootstrap.com/)** Framework (v5.3) was used for the grid structure and responsivity throughout the site. 
+
+The navigation bar, cards, carousel, and buttons were built using Bootstrap and adapted for the site.
+
+**[Font-Awesome](https://fontawesome.com/)** was used for icons throughout the site.
+
+**[Google Fonts](https://fonts.google.com/)** was to import fonts.
+
+**[Fontpair](https://fontpair.co/)** was used to pick a font pairing.
+
+**[WebAIM](https://webaim.org/resources/contrastchecker/)** was used to check the colour contrast for accessibility.
+
+**[Emmet](https://emmet.io/)** was used for rapid HTML/CSS generation via abbreviation syntax, and to generate text primarily in the "Recognise the Signs" section.
+
+**[Sqoosh]( https://squoosh.app/)** and **[Tinify](https://tinypng.com/)** were used to compress images for the web.
+
+**[ChatGPT](https://chatgpt.com/)** was used to generate user stories.
+
+**[Microsoft Copilot](https://copilot.microsoft.com/)** was used for image generation, code generation, and debugging (see AI use section).
+
+**[Chrome DevTools](https://developer.chrome.com/docs/devtools)** were used for debugging and testing.
+
 ### AI Use
 
 AI was used in this project for code generation (per project brief), debugging, and image generation. I also used ChatGPT to help generate users stories given the brief.
@@ -101,7 +129,7 @@ When I decided to change the colour scheme, Copilot was used to implement this c
 
 Copilot AI was used throughout for debugging. 
 For example: 
-- I asked it to check whether I had all the required closing tags for once section when I thought I might have missed one. 
+- I asked it to check whether I had all the required closing tags for one section when I thought I might have missed a tag. 
 - I asked it to tell me the specificty of bootstrap stylings so I could easily override them.
 
 ## Deployment
@@ -116,9 +144,5 @@ At the top of the Pages page, you should have the link to your deployed site. Yo
 
 ## Credits
 
-[googlefonts](https://fonts.google.com/) - Used to import fonts <br>
-[fontpair](https://fontpair.co/) - Used to pick font pairing <br>
-[webaim/contrastchecker](https://webaim.org/resources/contrastchecker/) - Used to check colour contrast (accessibility) <br>
-[ChatGPT](https://chatgpt.com/) - Used to generate user stories from prompts
-<!-- AI generated images - copilot -->
+
 
