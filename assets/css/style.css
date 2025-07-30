@@ -31,6 +31,11 @@ h1 {
     font-size: 3rem;
 }
 
+/* Explicit font-size for h1 within sections to address Lighthouse warning */
+section h1 {
+    font-size: 3rem;
+}
+
 h2 { 
     font-size: 2rem;
 }
