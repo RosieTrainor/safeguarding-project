@@ -275,6 +275,9 @@ footer a {
     color: var(--button-color);
 }
 
+#contact {
+    border: 2px solid var(--button-color);
+}
 
 /* Media Queries */
 
