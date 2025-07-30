@@ -18,18 +18,36 @@
 
 body {
     font-family: var(--body-font);
-    background-color: var(--secondary-color);
+    background-image: linear-gradient(var(--secondary-color), rgba(247, 108, 94, 0.4));
     color: var(--primary-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: var(--header-font);
     color: var(--primary-color);
 }
 
+h1 { font-size: 3rem;}
+h2 { font-size: 2rem;}
+h3 { font-size: 1.5rem;}
+
 section {
     /* Space for fixed navbar */
     scroll-margin-top: 56px; 
+}
+
+/* Add padding to all sections except hero */
+section:not(#hero) {
+    padding: 3rem 0;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
 /* Navigation */
@@ -106,7 +124,7 @@ main {
 /* Hero Section */
 
 .hero-image {
-    height: 310px;
+    height: 400px;
     position: relative;
     background: var(--secondary-color) url(../images/hero-image.webp) no-repeat center center/cover;
 }
@@ -141,11 +159,11 @@ main {
 /* Recognise the Signs Section */
 
 #recognise-signs .card-title {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 #recognise-signs .card-body .card-text {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 #recognise-signs .card-img-top {
@@ -154,7 +172,7 @@ main {
 }
 
 #recognise-signs .card {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border: 1px solid var(--primary-color);
     min-height: 514px;
 }
@@ -174,13 +192,17 @@ main {
     min-height: 250px;
 }
 
+#respond-to-concerns i {
+    color: var(--button-color);
+    margin-left: 0.8rem;
+}
 #respond-to-concerns a {
     color: var(--secondary-color);
     text-decoration: underline;}
 
 #respond-to-concerns .card {
     background-color: var(--primary-color);
-    border: 1px solid var(--button-color);
+    border: 1px solid var(--secondary-color);
 }
 
 /* Footer */
