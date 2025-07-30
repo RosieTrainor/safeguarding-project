@@ -7,18 +7,18 @@
 :root {
     --header-font: 'Inter', sans-serif;
     --body-font: 'PT Sans', sans-serif;
-    --primary-color: #1D3557;
-    --secondary-color: #E6F2FA;
-    --accent-color: #A8B6C1;
-    --button-color: #F76C5E;
-    --button-hover-color: #006161;
+    --primary-color: #2C3E50;
+    --secondary-color: #F0F8FF;
+    --accent-color: #708090;
+    --button-color: #20B2AA;
+    --button-hover-color: #008B8B;
 }
 
 /* Global Styles */
 
 body {
     font-family: var(--body-font);
-    background-image: linear-gradient(var(--secondary-color), rgba(247, 108, 94, 0.4));
+    background-image: linear-gradient(var(--secondary-color), rgba(32, 178, 170, 0.5));
     color: var(--primary-color);
 }
 
@@ -214,15 +214,16 @@ footer {
 }
 
 footer a {
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 #contact i {
-    color: var(--accent-color);
+    color: var(--button-color);
 }
 
 #social-media i {
     font-size: 2rem;
+    color: var(--button-color);
 }
 
 
