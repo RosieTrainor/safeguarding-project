@@ -214,14 +214,44 @@ main {
 
 /* Further Information Section */
 
-#info-carousel .carousel-item img {
-    max-height: 600px;
-    object-fit: cover;
-}   
+#info-carousel .carousel-inner {
+    height: 400px;
+}
 
-/* Override color for carousel captions to keep them visible on images */
+#info-carousel .carousel-item {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-carousel .carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#info-carousel .carousel-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 30px);
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
 .carousel-caption h5 {
-    color: inherit;
+    /* Override color for carousel captions to keep them visible on images */
+    color: white;
+}
+
+.carousel-caption p {
+    color: white;
 }
 
 /* Footer */
@@ -247,6 +277,27 @@ footer a {
 
 
 /* Media Queries */
+
+/* Tablets - reduce carousel height */
+@media screen and (max-width: 991px) {
+    #info-carousel .carousel-inner,
+    #info-carousel .carousel-item {
+        height: 300px;
+    }
+}
+
+/* Mobile - reduce carousel height */
+@media screen and (max-width: 576px) {
+    #info-carousel .carousel-inner,
+    #info-carousel .carousel-item {
+        height: 250px;
+    }
+    
+    #info-carousel .carousel-caption {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
 
 /* Mobiles, tablets, small desktops */
 @media screen and (max-width: 992px) {
