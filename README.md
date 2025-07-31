@@ -133,7 +133,7 @@ It had buttons on both the navbar and hero sections taking you to the contact in
 
 It had cards for the "Recognise the Signs" and "Respond to Concerns" sections to seperate different topics.
 
-![Recognise Cards](documentation/cards.png)
+![Recognise Cards](documentation/recognise%20cards.png)
 
 ![Respond Cards](documentation/respond%20cards.png)
 
@@ -141,6 +141,9 @@ It had a carousel in the "Further Information" section with the logos of other r
 
 ![Carousel](documentation/carousel.png)
 
+In the "Further Information" section in desktop view the captions and links to other sites are visible over the carousel images. When in mobile view, these captions are not visible on the carousel so instead these links are found below the carousel. This section is only visible in mobile view.
+
+![Hidden Links](documentation/links%20mobile.png)
 
 ## Future Features
 
