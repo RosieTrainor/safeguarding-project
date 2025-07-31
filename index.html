@@ -10,6 +10,48 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Preload Hero Image -->
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/hero-image.webp" type="image/webp"
+        crossorigin="anonymous">
+    <!-- Hero CSS Style for loading -->
+    <style>
+        .hero-image {
+            position: relative;
+            height: 450px;
+            overflow: hidden;
+        }
+
+        .hero-bg-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: white;
+        }
+
+        #hero h1 {
+            font-weight: 500;
+        }
+    </style>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -51,6 +93,8 @@
         <!-- Hero Section -->
         <section id="hero">
             <div class="hero-image">
+                <img src="assets/images/hero-image.webp" alt="People being Safeguarded" class="hero-bg-image"
+                    width="100%" height="450px" fetchpriority="high" loading="eager">
                 <div class="overlay"></div>
                 <div class="hero-text text-center pt-5">
                     <h1 class="custom-text-color">Safeguarding For All</h1>
@@ -77,7 +121,7 @@
                     <div class="col-12 col-md-4 text-center">
                         <img src="assets/images/safeguarding-responsibility.webp"
                             alt="Group of people with the caption 'Safeguarding is everyone's responsibility'"
-                            class="img-fluid rounded">
+                            class="img-fluid rounded" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -92,7 +136,7 @@
                     <div class="col-12 col-md-6 col-lg-4 p-2">
                         <div class="card m-2">
                             <img class="card-img-top" src="assets/images/physical-abuse.webp"
-                                alt="A person striking someone">
+                                alt="A person striking someone" loading="lazy">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Physical Abuse</h3>
                                 <div class="card-text mt-3">
@@ -108,7 +152,7 @@
                     <div class="col-12 col-md-6 col-lg-4 p-2">
                         <div class="card m-2">
                             <img class="card-img-top" src="assets/images/emotional-abuse.webp"
-                                alt="A person being yelled at">
+                                alt="A person being yelled at" loading="lazy">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Emotional Abuse</h3>
                                 <div class="card-text mt-3">
@@ -125,7 +169,7 @@
                     <div class="col-12 col-md-6 col-lg-4 p-2">
                         <div class="card m-2">
                             <img class="card-img-top" src="assets/images/financial-abuse.webp"
-                                alt="A bag of money being taken">
+                                alt="A bag of money being taken" loading="lazy">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Financial Abuse</h3>
                                 <div class="card-text mt-3">
@@ -141,7 +185,7 @@
                     <div class="col-12 col-md-6 col-lg-4 p-2">
                         <div class="card m-2">
                             <img class="card-img-top" src="assets/images/sexual-abuse.webp"
-                                alt="A person covering their face and body">
+                                alt="A person covering their face and body" loading="lazy">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Sexual Abuse</h3>
                                 <div class="card-text mt-3">
@@ -158,7 +202,7 @@
                     <div class="col-12 col-md-6 col-lg-4 p-2">
                         <div class="card m-2">
                             <img class="card-img-top" src="assets/images/neglect.webp"
-                                alt="An image of a food bowl with a cross through it">
+                                alt="An image of a food bowl with a cross through it" loading="lazy">
                             <div class="card-body">
                                 <h3 class="card-title text-center">Neglect</h3>
                                 <div class="card-text mt-3">
@@ -264,7 +308,7 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/images/SCIE.webp" class="d-block w-100" alt="SCIE logo">
+                                        <img src="assets/images/SCIE.webp" class="d-block w-100" alt="SCIE logo" loading="lazy">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Social Care Institute for Excellence</h5>
                                             <p>Information from SCIE.</p>
@@ -276,7 +320,7 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/images/nhs-logo.webp" class="d-block w-100" alt="NHS logo">
+                                        <img src="assets/images/nhs-logo.webp" class="d-block w-100" alt="NHS logo" loading="lazy">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>NHS</h5>
                                             <p>Information from the National Health Service.</p>
@@ -288,7 +332,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <img src="assets/images/cqc-logo-size.webp" class="d-block w-100"
-                                            alt="CQC logo">
+                                            alt="CQC logo" loading="lazy">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Care Quality Commission</h5>
                                             <p>Information from the Care Quality Commission.</p>
@@ -400,13 +444,13 @@
                         e.preventDefault(); // Prevent default anchor click behavior
                         let navbar = document.querySelector(".navbar-toggler");
                         let navbarHeight = navbar.offsetHeight;
-                        
+
                         // Add extra offset for sections with my-3 spacing
                         let extraOffset = 0;
                         if (section.id === "respond-to-concerns" || section.id === "further-information") {
                             extraOffset = 20; // Account for my-3 margin spacing
                         }
-                        
+
                         window.scroll({
                             top: section.offsetTop - navbarHeight - extraOffset,
                             behavior: "smooth",
