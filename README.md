@@ -144,8 +144,9 @@ The image in the "About" section was created with Microsoft Copilot, as were the
 #### Code Generation
 
 Copilot was used to generate and style an overlay div to darken the hero image without darkening the text on the image. It was also used to style the carousel images so they appeared the same size and remained responsive.
+Finally, I used it to add global CSS styles to prevent horizontal scrolling.
 
-When I decided to change the colour scheme, Copilot was used to implement this change rather than go through and do it manually.
+When I decided to change the colour scheme, Copilot was used to implement this change rather than go through and do it manually. I also used it to implement explicit widths/heights on images after testing with Lighthouse.
 
 #### Debugging
 
@@ -163,6 +164,26 @@ From your github repository, navigate to the Pages area (within Settings) and ch
 At the top of the Pages page, you should have the link to your deployed site. You may need to refresh the page or wait a few minutes.
 
 ## Testing 
+
+### Validation
+
+#### HTML
+
+I used [W3 HTML Validator](https://validator.w3.org/) to check my HTML. It gave me a warning that I had incorrectly used ari-labels on icons that were just decorative, so I removed these labels. 
+
+#### CSS
+
+I used [W3 CSS Validator](https://validator.w3.org/) to check my CSS. It found no errors.
+
+
+
+### Manual Testing
+
+I tested all of the internal links in desktop, tablet and mobile view using Chrome DevTools. The links all scrolled to the correst sections and the scroll stopped at the right place. I also tested the external links to make sure they opened to the correct sites and in a new tab. 
+
+I used the keyboard to tab through the site to see whether it took me to the correct links. 
+
+I used Chrome DevTools to check whether my site was responsive in all screen sizes. 
 
 ### Lighthouse
 
@@ -185,12 +206,13 @@ With these changes, my performance is now at 97 on Lighthouse.
 ### Accessibility 
 
 My accessibility score was at 98 to begin with so I did not make any changes due to the Lighthouse scores. I also tested this manually (see manual testing section).
-<!-- maybe change -->
 
 ### Best Practices
 
 My Lighthouse score was at 79 to begin with, mainly due to displaying images with the incorrect aspect ratios.
-I added explicit widths and heights to my images
+I added explicit widths and heights to my images, and adjusted these to fit the aspect ratios of the original images. 
+
+<!-- new score -->
 ## Credits
 
 [North East London NHS](https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-statutory-duties/) - image taken from here for hero image.
@@ -208,6 +230,7 @@ I added explicit widths and heights to my images
 
 [Balsamiq](https://balsamiq.com/) - used to create wireframes.
 
+[W3 Validator](https://validator.w3.org/) - for HTML validation.
 
 
 
