@@ -97,10 +97,33 @@ This website uses Inter for the headings and PT Sans for the body text. These we
 
 ## Website Features
 
-<!-- Navbar -->
-<!-- Footer -->
-<!-- Report Button -->
-<!-- Features of Home Page -->
+The site had a navbar which collapsed in mobile and tablet view. 
+
+![Navbar Desktop](documentation/navbar%20desktop.png)
+
+![Navbar Mobile Collapsed](documentation/navbar%20mobile%20collapse.png)
+
+![Navbar Mobile Expanded](documentation/navbar%20mobile%20expland.png)
+
+It had a footer with contact information and links to social media pages.
+
+![Footer Desktop](documentation/footer%20desktop.png)
+
+![Footer Mobile](documentation/footer%20mobile.png)
+
+It had buttons on both the navbar and hero sections taking you to the contact information so users could report a safeguarding concern.
+
+![Buttons](documentation/buttons.png)
+
+It had cards for the "Recognise the Signs" and "Respond to Concerns" sections to seperate different topics.
+
+![Recognise Cards](documentation/cards.png)
+
+![Respond Cards](documentation/respond%20cards.png)
+
+It had a carousel in the "Further Information" section with the logos of other reputable websites, and links to those websites. 
+
+![Carousel](documentation/carousel.png)
 
 
 ## Future Features
