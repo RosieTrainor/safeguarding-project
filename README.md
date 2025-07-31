@@ -168,6 +168,10 @@ The navigation bar, cards, carousel, and buttons were built using Bootstrap and 
 
 **[Chrome DevTools](https://developer.chrome.com/docs/devtools)** were used for debugging and testing.
 
+**[W3 HTML Validator](https://validator.w3.org/)** was used for HTML validation.
+
+**[W3 CSS Validator](https://validator.w3.org/)** was used for CSS validation. 
+
 ### AI Use
 
 AI was used in this project for code generation (per project brief), debugging, and image generation. I also used ChatGPT to help generate users stories given the brief.
