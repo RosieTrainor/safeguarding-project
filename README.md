@@ -30,6 +30,22 @@ The site was fully responsive for mobile, tablet, and desktop.
 
 ## Contents
 
+- [Live Site](#live-site)
+- [Introduction](#introduction)
+- [Responsivity](#responsivity)
+- [User Experience](#user-experience)
+- [Design](#design)
+- [Website Features](#website-features)
+- [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+  - [AI Use](#ai-use)
+- [Deployment](#deployment)
+- [Testing](#testing)
+  - [Validation](#validation)
+  - [Manual Testing](#manual-testing)
+  - [Lighthouse](#lighthouse)
+- [Credits](#credits)
+
 ## User Experience
 
 ### Strategy
@@ -228,10 +244,16 @@ I used Chrome DevTools to check whether my site was responsive in all screen siz
 
 ### Lighthouse
 
+Initial Score:
+![Lighthouse Initial Score](documentation/Lighthouse%20beginning.png)
+![Lighthouse Initial Score SEO](documentation/lighthouse%20beginning%20SEO.png)
+
+Final Score:
+![Lighthouse Final Score](documentation/lighthouse%20final.png)
 #### Performance 
 
 My first Lighthouse score for performance was 79, mainly due to the LCP (hero image) loading and render delay times. 
-<!-- image here -->
+
 To improve this, I changed the hero image to be an img tag in the HTML rather than as a background-image from css.I set a defined width/height and adjusted this for mobiles with a media query.
 I preloaded the image in the head, and set the loading within the img to "eager". 
 I also embedded the CSS for my hero image in the head of the HTML rather than in the CSS file to reduce render delay. 
@@ -242,8 +264,6 @@ For the rest of the site, I added lazy loading to all images excluding the hero 
 
 With these changes, my performance is now at 97 on Lighthouse.
 
-<!-- image here -->
-
 ### Accessibility 
 
 My accessibility score was at 98 to begin with so I did not make any changes due to the Lighthouse scores. I also tested this manually (see manual testing section).
@@ -253,10 +273,11 @@ My accessibility score was at 98 to begin with so I did not make any changes due
 My Lighthouse score was at 79 to begin with, mainly due to displaying images with the incorrect aspect ratios.
 I added explicit widths and heights to my images, and adjusted these to fit the aspect ratios of the original images. 
 
+Unfortunately the other issue was that I hadn't set an explicit font-size on a h1 element (required due to depricating APIs). Although I attempted to fix this, I couldn't within the timeframe and my final score was 82. 
+
 ### SEO
 
-My original SEO score was 82, due to the lack of a meta description and some links not having descriptive texts. I added both of these. 
-
+My original SEO score was 82, due to the lack of a meta description and some links not having descriptive texts. I added both of these and my SEO score went up to 100.
 
 ## Credits
 
@@ -275,7 +296,6 @@ My original SEO score was 82, due to the lack of a meta description and some lin
 
 [Balsamiq](https://balsamiq.com/) - used to create wireframes.
 
-[W3 Validator](https://validator.w3.org/) - for HTML validation.
 
 
 
