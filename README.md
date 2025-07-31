@@ -224,7 +224,7 @@ At the top of the Pages page, you should have the link to your deployed site. Yo
 
 #### HTML
 
-I used [W3 HTML Validator](https://validator.w3.org/) to check my HTML. It gave me a warning that I had incorrectly used ari-labels on icons that were just decorative, so I removed these labels. It then found no errors.
+I used [W3 HTML Validator](https://validator.w3.org/) to check my HTML. It gave me a warning that I had incorrectly used aris-labels on icons that were just decorative, so I removed these labels. It then found no errors.
 
 ![HTML Validation](documentation/HTML%20Validation.png)
 
@@ -262,7 +262,7 @@ Additionally, I resized the image used for my hero image as it was slightly larg
 
 For the rest of the site, I added lazy loading to all images excluding the hero image, and loaded the fonts from Google Fonts in the HTML rather than importing to the CSS. 
 
-With these changes, my performance is now at 97 on Lighthouse.
+With these changes, my performance is now at 94 on Lighthouse.
 
 ### Accessibility 
 
