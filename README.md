@@ -185,12 +185,13 @@ With these changes, my performance is now at 97 on Lighthouse.
 ### Accessibility 
 
 My accessibility score was at 98 to begin with so I did not make any changes due to the Lighthouse scores. I also tested this manually (see manual testing section).
-<!-- maybe change -->
 
 ### Best Practices
 
 My Lighthouse score was at 79 to begin with, mainly due to displaying images with the incorrect aspect ratios.
-I added explicit widths and heights to my images
+I added explicit widths and heights to my images, and adjusted these to fit the aspect ratios of the original images. 
+
+<!-- new score -->
 ## Credits
 
 [North East London NHS](https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-statutory-duties/) - image taken from here for hero image.
