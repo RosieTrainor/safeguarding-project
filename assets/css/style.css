@@ -16,6 +16,34 @@ body {
     font-family: var(--body-font);
     background-image: linear-gradient(var(--secondary-color), rgba(32, 178, 170, 0.5));
     color: var(--primary-color);
+    overflow-x: hidden;
+}
+
+/* Prevent any potential horizontal overflow */
+html {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Ensure cards with margins don't exceed container width */
+.card.m-2 {
+    max-width: calc(100% - 1rem);
+}
+
+/* Ensure Bootstrap containers don't overflow */
+.container,
+.container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Ensure all images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 h1, h2, h3, h4, h5 {
