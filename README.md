@@ -13,8 +13,20 @@ It lays out what safeguarding is, how to recognise signs of safeguarding concern
 The site aims to be as accessible as possible for everyone.
 
 ## Responsivity
+
+The site was fully responsive for mobile, tablet, and desktop.
+
+![Responsivity](documentation/responsive.png)
+
 ### Mobile/Tablet View
+
+![Mobile](documentation/responsive%20mobile.png)
+
+![Tablet](documentation/responsive%20tablet.png)
+
 ### Desktop View
+
+![Desktop](documentation/responsive%20desktop.png)
 
 ## Contents
 
