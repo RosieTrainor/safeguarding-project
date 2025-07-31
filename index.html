@@ -10,6 +10,13 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
     <!-- Preload Hero Image -->
     <link rel="preload" fetchpriority="high" as="image" href="assets/images/hero-image.webp" type="image/webp"
         crossorigin="anonymous">
@@ -18,6 +25,7 @@
         .hero-image {
             position: relative;
             height: 450px;
+            /* Default for larger screens */
             overflow: hidden;
         }
 
@@ -35,7 +43,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.6);
             z-index: 1;
         }
 
@@ -50,6 +58,14 @@
 
         #hero h1 {
             font-weight: 500;
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 768px) {
+            .hero-image {
+                height: 350px;
+                /* Fixed height for mobile */
+            }
         }
     </style>
 </head>
@@ -308,7 +324,8 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/images/SCIE.webp" class="d-block w-100" alt="SCIE logo" loading="lazy">
+                                        <img src="assets/images/SCIE.webp" class="d-block w-100" alt="SCIE logo"
+                                            loading="lazy">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Social Care Institute for Excellence</h5>
                                             <p>Information from SCIE.</p>
@@ -320,7 +337,8 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/images/nhs-logo.webp" class="d-block w-100" alt="NHS logo" loading="lazy">
+                                        <img src="assets/images/nhs-logo.webp" class="d-block w-100" alt="NHS logo"
+                                            loading="lazy">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>NHS</h5>
                                             <p>Information from the National Health Service.</p>
@@ -331,8 +349,8 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/images/cqc-logo-size.webp" class="d-block w-100"
-                                            alt="CQC logo" loading="lazy">
+                                        <img src="assets/images/cqc-logo-size.webp" class="d-block w-100" alt="CQC logo"
+                                            loading="lazy">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Care Quality Commission</h5>
                                             <p>Information from the Care Quality Commission.</p>
