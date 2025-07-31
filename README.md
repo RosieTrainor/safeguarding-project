@@ -169,13 +169,15 @@ At the top of the Pages page, you should have the link to your deployed site. Yo
 
 #### HTML
 
-I used [W3 HTML Validator](https://validator.w3.org/) to check my HTML. It gave me a warning that I had incorrectly used ari-labels on icons that were just decorative, so I removed these labels. 
+I used [W3 HTML Validator](https://validator.w3.org/) to check my HTML. It gave me a warning that I had incorrectly used ari-labels on icons that were just decorative, so I removed these labels. It then found no errors.
+
+![HTML Validation](documentation/HTML%20Validation.png)
 
 #### CSS
 
 I used [W3 CSS Validator](https://validator.w3.org/) to check my CSS. It found no errors.
 
-
+![CSS Validation](documentation/CSS%20Validation.png)
 
 ### Manual Testing
 
