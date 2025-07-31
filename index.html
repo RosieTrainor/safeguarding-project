@@ -16,7 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-    
+
     <!-- Preload Hero Image -->
     <link rel="preload" fetchpriority="high" as="image" href="assets/images/hero-image.webp" type="image/webp"
         crossorigin="anonymous">
@@ -25,6 +25,7 @@
         .hero-image {
             position: relative;
             height: 450px;
+            /* Default for larger screens */
             overflow: hidden;
         }
 
@@ -57,6 +58,14 @@
 
         #hero h1 {
             font-weight: 500;
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 768px) {
+            .hero-image {
+                height: 350px;
+                /* Fixed height for mobile */
+            }
         }
     </style>
 </head>
