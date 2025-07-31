@@ -245,7 +245,7 @@ main {
 #footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 footer a {
