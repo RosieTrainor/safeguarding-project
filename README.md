@@ -164,6 +164,33 @@ At the top of the Pages page, you should have the link to your deployed site. Yo
 
 ## Testing 
 
+### Lighthouse
+
+#### Performance 
+
+My first Lighthouse score for performance was 79, mainly due to the LCP (hero image) loading and render delay times. 
+<!-- image here -->
+To improve this, I changed the hero image to be an img tag in the HTML rather than as a background-image from css.I set a defined width/height and adjusted this for mobiles with a media query.
+I preloaded the image in the head, and set the loading within the img to "eager". 
+I also embedded the CSS for my hero image in the head of the HTML rather than in the CSS file to reduce render delay. 
+
+Additionally, I resized the image used for my hero image as it was slightly larger than would be used on the site, even with desktop screens.
+
+For the rest of the site, I added lazy loading to all images excluding the hero image, and loaded the fonts from Google Fonts in the HTML rather than importing to the CSS. 
+
+With these changes, my performance is now at 97 on Lighthouse.
+
+<!-- image here -->
+
+### Accessibility 
+
+My accessibility score was at 98 to begin with so I did not make any changes due to the Lighthouse scores. I also tested this manually (see manual testing section).
+<!-- maybe change -->
+
+### Best Practices
+
+My Lighthouse score was at 79 to begin with, mainly due to displaying images with the incorrect aspect ratios.
+
 ## Credits
 
 [North East London NHS](https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-statutory-duties/) - image taken from here for hero image.
